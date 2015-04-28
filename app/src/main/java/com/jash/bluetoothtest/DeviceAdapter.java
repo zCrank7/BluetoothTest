@@ -12,9 +12,6 @@ import android.widget.TextView;
 import java.util.Collection;
 import java.util.List;
 
-/**
- * Created by jash on 15-4-22.
- */
 public class DeviceAdapter extends RecyclerView.Adapter<DeviceAdapter.ViewHolder> {
     private Context context;
     private List<BluetoothDevice> list;
@@ -27,6 +24,9 @@ public class DeviceAdapter extends RecyclerView.Adapter<DeviceAdapter.ViewHolder
             listener = (View.OnClickListener) context;
         }
     }
+
+
+
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
