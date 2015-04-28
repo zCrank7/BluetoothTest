@@ -69,6 +69,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
         if (bluetoothAdapter == null) {
             Toast.makeText(this, "本设备没有蓝牙模块", Toast.LENGTH_LONG).show();
             finish();
+            
         }
         //检测蓝牙是否开启
         if (!bluetoothAdapter.isEnabled()){
